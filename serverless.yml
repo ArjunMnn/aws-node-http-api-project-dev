@@ -1,4 +1,4 @@
-org: trainwithshubham
+org: arjunmnn7
 app: aws-node-http-api-project
 service: aws-node-http-api-project
 frameworkVersion: '3'
@@ -12,7 +12,7 @@ provider:
       Action:
         - dynamodb:*
       Resource:
-        - arn:aws:dynamodb:us-east-1:626072240565:table/KaamKaro
+        - arn:aws:dynamodb:us-east-1:290639524860:table/KaamKaro
 
 functions:
   hello:
@@ -39,6 +39,12 @@ functions:
       - httpApi:
           path: /kaam/{id}
           method: put
+  kaamHatao:
+    handler: src/kaamHatao.handler
+    events:
+      - httpApi:
+          path: /kaam/{id}
+          method: post
 
 resources:
   Resources:
