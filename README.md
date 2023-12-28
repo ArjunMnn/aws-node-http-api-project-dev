@@ -179,5 +179,3 @@ Use [Postman](https://www.postman.com/) to test your APIs. Here are some sample 
 [](https://arjunmenon.hashnode.dev/building-a-serverless-nodejs-api-with-aws-and-serverless-framework#heading-conclusion "Permalink")
 -------------------------------------------------------------------------------------------------------------------------------------
 
-Conclusion
-----------
